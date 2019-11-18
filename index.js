@@ -16,7 +16,6 @@ connection.connect((err) => {
     console.log('MySQL está conectado!');
 });
 
-
 const app = express();
 
 app.listen('3000', () => {
