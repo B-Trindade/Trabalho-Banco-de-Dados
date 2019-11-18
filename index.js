@@ -16,8 +16,11 @@ connection.connect((err) => {
     console.log('MySQL está conectado!');
 });
 
-
 const app = express();
+
+//Create DB and initialize
+
+
 
 app.listen('3000', () => {
     console.log('Servidor inicializado na porta 3000');
