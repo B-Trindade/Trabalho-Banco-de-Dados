@@ -2,7 +2,7 @@
   "name": "bd",
   "version": "1.0.0",
   "description": "trabalho de banco de dados",
-  "main": "index.js",
+  "main": "..\\BD\\frontend\\index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,9 @@
   "author": "B-Trindade",
   "license": "ISC",
   "dependencies": {
+    "chart.js": "^2.9.3",
     "express": "^4.17.1",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "xmlhttprequest": "^1.8.0"
   }
 }
